@@ -1,0 +1,57 @@
+/*
+	General CSS file for base table maintenence
+*/
+
+form  { display: table;      }
+p     { display: table-row;  }
+label { display: table-cell; }
+input { display: table-cell; }
+
+/*
+	Navigation buttons
+*/
+.navtable li {
+	display:inline-block;
+	/* float: left; */
+	list-style: none;
+	text-align: center;
+	background-color: #000000;
+	margin-right: 10px;
+	width: 100px;
+	line-height: 20px;
+}
+
+.navtable li a {
+	text-decoration: none;
+	color: #77aa77;
+	display: block;
+  }
+  
+  .navtable li a:hover {
+	text-decoration: none;
+	color: #000000;
+	background-color: #33B5E5;
+  }
+
+  .newbutton {
+	display:inline-block;
+	/* float: left; */
+	list-style: none;
+	text-align: center;
+	background-color: #004444;
+	margin-right: 10px;
+	width: 100px;
+	line-height: 20px;
+  }
+
+  .newButton a {
+	text-decoration: none;
+	color: #FFaa00;
+	display: block;
+  }
+
+  .newbutton a:hover {
+	text-decoration: none;
+	color: #000000;
+	background-color: #8385a5;
+  }
